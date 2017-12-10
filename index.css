@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    line-height: 1.5;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    margin-top;2.5%;
+}
+img{
+    width: 90%;
+    transition: transform 0.2s ease-in-out;
+    border: 5px solid;
+}
+img:hover{
+    transform:rotate(15dge);
+    z-index:20;
+}
+@media screen and (min-width: 600px){
+    li {
+        width: 50%;
+    }
+    
+    img:hover {
+        transform: translate(50px, 100px);
+        transform: skew(20deg, 30deg);
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    li {
+        width: 25%;
+    }
+        img:hover {
+        transform: scale(1.4);
+    }
+    
+}
